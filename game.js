@@ -11,7 +11,7 @@ let s9 = "9";
 const start = () => {
     let currentPlayer = "x"
     while (true) {
-        let input = prompt(`${currentPlayer} Please select a position (1 -9)\n${display()}`);
+        let input = prompt(`${currentPlayer} Please select a position 1 -9\n${display()}`);
         if (input == null) break
         switch (input) {
             case "1": 
