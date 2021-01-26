@@ -97,7 +97,7 @@ button {
 @keyframes example {
     0%   {
         background-color:rgb(67, 1, 80);
-        margin-left: 0;
+        margin-left: 3%;
     }
     25%  {
         background-color: rgb(147, 5, 175);
@@ -109,7 +109,7 @@ button {
     }
     100% {
         background-color: rgb(67, 1, 80); 
-        margin-left: 92%;
+        margin-left: 93%;
     }
   }
 
