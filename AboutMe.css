@@ -91,13 +91,13 @@ button {
     height: 100px;
     margin: auto;
     background-color: rgb(67, 1, 80);
-    animation: example 5s infinite;
+    animation: example 5s infinite alternate;
 }
 
 @keyframes example {
     0%   {
         background-color:rgb(67, 1, 80);
-        margin-left: 3%;
+        margin-left: 5%;
     }
     25%  {
         background-color: rgb(147, 5, 175);
@@ -109,8 +109,9 @@ button {
     }
     100% {
         background-color: rgb(67, 1, 80); 
-        margin-left: 93%;
+        margin-left: 88%;
     }
+    
   }
 
 footer {
